@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seeds of the Word</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        #plantImage { display: none; width: 200px; }
+        #result { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Seeds of the Word</h1>
+    <p>Scripture: "And now as I said concerning faith—faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true." (Alma 32:21)</p>
+    <p>Type the scripture exactly to plant your seed!</p>
+    <textarea id="input" rows="4" cols="50"></textarea><br>
+    <button onclick="checkScripture()">Plant Seed</button>
+    <div id="result"></div>
+    <img id="plantImage" src="https://cdn.pixabay.com/photo/2016/03/31/19/13/flower-1295838_1280.png" alt="Plant">
+
+    <script>
+        const correctScripture = "And now as I said concerning faith—faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope fo
